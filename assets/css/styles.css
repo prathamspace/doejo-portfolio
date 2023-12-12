@@ -1,0 +1,18 @@
+/*
+* Doejo Portfolio Styles
+*/
+
+.doejo-plugin-portfolio {
+  width: 1440px !important;
+  margin: 0 auto;
+  max-width: calc(100% - 160px);
+  display: flex;
+}
+.doejo-portfolio-img {
+  width: 309px !important;
+  height: 206px !important;
+}
+.doejo-portfolio-img:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
